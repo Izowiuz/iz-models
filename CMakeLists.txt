@@ -1,8 +1,4 @@
-﻿# cmake minumum version
-cmake_minimum_required(VERSION 3.10)
-
-# project name and version
-project(IzModels VERSION 1.0.0 LANGUAGES CXX)
+﻿
 
 # project architecture
 if(${CMAKE_SIZEOF_VOID_P} EQUAL 8)
