@@ -26,7 +26,8 @@ SHARED
 )
 
 # public headers
-set(PUBLIC_HEADERS
+set(
+PUBLIC_HEADERS
     "include/IzModels/AbstractItemModel.h"
     "include/IzModels/ProxyModel.h"
     "include/IzModels/NullModel.h"
