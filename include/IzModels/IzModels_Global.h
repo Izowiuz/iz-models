@@ -1,5 +1,4 @@
-﻿#ifndef IZMODELS_GLOBAL_H
-#define IZMODELS_GLOBAL_H
+﻿#pragma once
 
 #include <QtCore/qglobal.h>
 
@@ -8,5 +7,3 @@
 #else
 #define IZMODELSSHARED_EXPORT Q_DECL_IMPORT
 #endif
-
-#endif   // IZMODELS_GLOBAL_H
