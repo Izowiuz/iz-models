@@ -2,7 +2,7 @@
 
 include(CMakeFindDependencyMacro)
 
-find_dependency(Qt5 REQUIRED COMPONENTS Core Sql Qml Concurrent)
+find_dependency(Qt6 REQUIRED COMPONENTS Core Sql Qml Concurrent)
 
 if(NOT TARGET IzModels::IzModels)
     include("${IzModels_CMAKE_DIR}/cmake/IzModels/IzModelsTargets.cmake")
