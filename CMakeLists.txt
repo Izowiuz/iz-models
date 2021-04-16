@@ -53,7 +53,7 @@ PROPERTIES
     PUBLIC_HEADER "${PUBLIC_HEADERS}"
 )
 
-# include directories for target IzLogger
+# include directories for target
 target_include_directories(
     IzModels
 PUBLIC
